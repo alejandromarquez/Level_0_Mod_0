@@ -3,7 +3,7 @@ package learning_random;
 import java.util.Random;
 
 //1. Run the program.  What number appears?
-
+        
 //2. Make the number random.
 
 //3. Limit the random number between 0 and 100
@@ -14,10 +14,11 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
-		//Create an object of the Random class here
-
-		int r = 0;
+		//Create an oizmo.nextInt();
+		 Random gizmo=new Random();
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+		int r = gizmo.nextInt(88 - -222)-222;
 		
-		System.out.println(r); 
+		System.out.println(); 
 	}
 }
